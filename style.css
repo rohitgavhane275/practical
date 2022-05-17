@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sidebar-head{
+    text-align: center;
+    margin-top: 25px;
+}
+.sidebar-heading{
+    font-size: 18px;
+    font-weight: 700;
+}
+#header{
+   
+    font-weight: 600;
+    font-size: 24px;
+    padding: 11px;
+    text-align: center;
+}
+.main-content{
+    display: flex;
+}
+.aside{
+    width:18%;
+    height: 100vh;
+    background-color:white;
+    color: grey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+#dash-head{
+   font-size: 24px;
+   margin-left: 5px;
+}
+
+.dash-padding{
+   padding: 12px;
+}
+
+.dash-item-style{
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.dash span{
+    margin-left: 10px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid white;
+}
+
+
+.content{
+    width:82%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content1{
+   
+    height: 50vh;
+    display: flex;
+}
+
+.cards{
+    width: 70%;
+    display: flex;
+}
+
+.user-info-container{
+    width: 30%;
+}
+
+.content2{
+    height: 50vh;
+    display: flex;
+}
+
+.content1{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-content1{
+    width: 70%;
+}
+
+.sub-content2{
+    width: 30%;
+}
+
+.card{
+    
+    text-align: center;
+    height: 140px;
+    width: 200px;
+    margin: 10px 5px 5px 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+
+.card > i{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.card > p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.card1{
+    background-color :#20bf55;
+    background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.card2{
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+
+.card3{
+    background-color: #fc9842;
+    background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+}
+
+.card4{
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+
+#img1{
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.user-info{
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    border-radius: 15px;
+}
+.user-image{
+   text-align: center;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1z_8pgX-RVy3xGF7jrW_YjfgnWAFupVZh4w&usqp=CAU');
+   background-size: 100%;
+   color: white;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+.user-image h5{
+    margin: 0px;
+    padding-top: 6px;
+}
+.user-image p{
+    margin: 0;
+    padding: 4px;
+}
+
+.user-details{
+    margin-top: 10px;
+}
+.user-details p{
+    margin: 0;
+}
+
+.table1{
+    width: 80%;
+    margin: auto;
+}
+
+.button1{
+    margin: 15px;
+    color: white;
+    border: none;
+    background-color: rgb(0, 123, 255);
+    width: 120px;
+    height: 35px;
+}
+
+.table2{
+    width:90%;
+    height: 255px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.table2 td,th{
+    text-align: center;
+}
+
+.table2 tr:nth-child(even) {background-color: #0dcaf012;}
+
+
+
+.button2{
+    border: none;
+    width: 90px;
+    height: 32px;
+    color: white;
+    border-radius: 10px;
+}
+
+.pending{
+    background-color: orange;
+}
+.submitted{
+    background-color: green;
+}
+
+#container{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+
+#card1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+#card2{
+    width: 50%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#container1{
+    height: 92%;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#img2{
+    height: 100px;
+    width:200px;
+    margin-top: 30px;
+}
